@@ -1,0 +1,200 @@
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+h1 {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 56px;
+}
+
+h2 {
+  font-family: "Anonymous Pro", sans-serif;
+	font-size: 48px;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+	display: inline-block;
+	margin: 15px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: start;
+  max-width: 370px;
+  vertical-align: top;
+}
+
+.container img {
+  width: 370px;
+}
+
+h3 {
+  font-family: "Anonymous Pro", sans-serif;
+	font-size: 26px;
+}
+
+p {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 14px;
+}
+
+img {
+	width: inherit;
+  border-radius: inherit;
+}
+
+header {
+  font-family: "Anonymous Pro", sans-serif;
+  height: 70px;
+  margin: 0px 10%;
+  padding: 10px 0;
+  align-items: center;
+}
+
+.nav-container {
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-container img {
+  width: 212.34px;
+  height: 63.24px;
+  vertical-align: middle;
+}
+
+.navbar-link {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  vertical-align: top;
+}
+
+.navbar-link li {
+  display: inline-block;
+}
+
+header .navbar-link a {
+  color: black;
+  text-decoration: none;
+  padding: 0 30px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+header .navbar-link a:hover {
+  text-decoration: underline;
+}
+
+header img, a {
+  vertical-align: middle;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  background-color: #121723;
+}
+
+.footer {
+  font-family: "Anonymous Pro", sans-serif;
+  background-color: #121723;
+  height: 100px;
+}
+
+.footer img {
+  width: 300px;
+}
+
+.container h3 {
+  text-align: start;
+}
+
+.footer-cont {
+  margin: 0 10%;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-link a {
+  color: white;
+  text-decoration: none;
+  padding: 0 30px;
+  transition: .3s;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.description {
+  background-color: #121723;
+  text-align: center;
+  padding: 15px 0;
+}
+
+
+.description a{
+  color: gray;
+  font-weight: 700;
+}
+
+.container__title {
+  word-wrap: normal;
+  width: 370px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.container__text {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.subtitle {
+  font-family: "IBM Plex Mono";
+  text-align: left;
+  margin: 15px 25px;
+  font-size: 48px;
+  font-weight: 500;
+}
+
+main {
+  text-align: center;
+  background: #F1F1F1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.catalog {
+  margin: 0 100px;
+  
+}
+
+.footer-link ul{
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  vertical-align: top;
+  display: flex;
+}
+
+.footer-link a {
+  font-weight: 700;
+  font-size: 20px;
+}
